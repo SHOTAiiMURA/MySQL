@@ -18,8 +18,8 @@ For names, define the required data elements, such as whether or not to specify 
 
 Also, set a primary key for the table to define data that will not be duplicated. The use of a primary key makes it easier to identify duplicate data in the table.
 ### Grammar
--- create table User
-- (user_id varchar(50) not null,
+create table User
+(user_id varchar(50) not null,
 - name varchar(40) not null,
 - primary key (user_id));
 
